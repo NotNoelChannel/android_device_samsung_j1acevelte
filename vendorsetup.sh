@@ -1,0 +1,2 @@
+add_lunch_combo lineage_j1acevelte-userdebug
+add_lunch_combo lineage_j1acevelte-eng
