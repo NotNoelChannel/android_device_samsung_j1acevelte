@@ -32,7 +32,7 @@ jobs:
         curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
         python3 ~/.bin/repo init --depth=1 -u https://github.com/LineageOS/android.git -b cm-14.1
         git clone https://github.com/NotNoelChannel/android_device_samsung_j1acevelte.git -b cm-14.1 ~/TWRP/device/samsung/j1acevelte
-        git clone https://github.com/unlegacy-devices/android_device_samsung_j1acevelte-common.git -b cm-14.1 ~/TWRP/device/samsung/j1acevelte-common
+        git clone https://github.com/unlegacy-devices/android_device_samsung_j1acevelte-common.git -b cm-14.1 ~/TWRP/device/samsung/sharkls
         git clone https://github.com/sieyron/android_vendor_samsung_j1acevelte -b cm-14.1 ~/TWRP/vendor/samsung/j1acevelte
         git clone https://github.com/sieyron/android_kernel_samsung_sharkls -b cm-14.1 ~/TWRP/kernel/samsung/sharkls        
         git clone --depth 1 --branch android-6.0.1_r32 --single-branch https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8 /opt/toolchains/arm-eabi-4.8/
