@@ -54,6 +54,9 @@ jobs:
         git clone https://github.com/djeman/android_vendor_sprd -b cm-14.1 ~/TWRP/vendor/sprd 
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
+        cd ~/TWRP/device/samsung/sharkls-common/patches
+        sh apply_sprd-diff.sh
+        cd ~/TWRP
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
         export LC_ALL=C
